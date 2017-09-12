@@ -1,0 +1,37 @@
+Model Change Bulletin (MCB) 7 - AERMET version 16216 changes by change type.
+Listed with each change are the affected AERMET stages.
+BUG FIXES
+Item	Modification	Stage
+1	Modified subroutines MPFIN and SUBST to set RANDOM as the default selection for the WIND_DIR variable under the METHOD option in Stage 3 for NWS wind directions.
+3
+2	Modified subroutine UCALST to remove the code for adjusting USTAR if CHEK .GT. 1 for the ADJ_U* option. Also incorporated a lower limit of USTCR for USTAR based on Equation 26 of Qian and Venkatram (BLM, 2011).
+3
+3	Modified subroutine BULKRI to set a lower limit of 1.0m for the Monin-Obukhov length (L) as one of the criteria for exiting the DO WHILE loop to avoid NaN’s for USTAR in the surface output file for the ADU_U* option. Subroutine BULKRI was also modified to use BETAM = 5.0 for the ADJ_U* option instead of 4.7.
+3
+4	Modified subroutine MPPBL to use potential temperature instead of ambient temperature for calculating the Monin-Obukov length (L).
+3
+5	Modified subroutine MPMET to correct the FORMAT statement for including the ‘BULKRN/MMIF’ string in the surface file header record.
+3
+
+ENHANCEMENTS
+Item	Modification	Stage
+1	Modified subroutine UCALST and MPPBL to incorporate a more refined method for calculating USTAR and THSTAR for the ADJ_U* option based on Luhar and Rayner (BLM, v132, 2009), consistent with the approach used in version 15181 for the BULKRI option, and consistent with the recommendation for use of this method for the “single-level method”, i.e., without the BULKRI method, provided in Section 4.5 of Luhar and Rayner.
+3
+
+MISCELLANEOUS
+Item	Modification	Stage
+1	Modified several subroutines with minor or cosmetic changes to the documentation of user options and error handling and reporting.	All
+
+
+
+reformat.
+(setq last-kbd-macro
+   [?\C-a ?C ?  ?  ?  ?  ?  ?  ?  right ?. ?\C-  C-right C-left ?\C-? ?  ?  ?\C-l])
+
+end the sentence
+(setq last-kbd-macro
+   [?a ?n ?d ?\C-  S-right S-right S-left S-left C-S-right C-S-left ?\C-? ?  ?\M-l ?  ?s ?o ?u ?r ?c ?e ?  ?t ?y ?p ?e ?s ?. right down])
+
+word wrap
+(setq last-kbd-macro
+   [?\C-a right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right C-left ?\C-? ?\C-m ?C ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?  ?\C-l])

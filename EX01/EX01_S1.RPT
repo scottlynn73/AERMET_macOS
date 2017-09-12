@@ -1,0 +1,204 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:05
+
+                                      Stage 1                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: EX01_S1.MSG
+     Summary (this file): EX01_S1.RPT
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+     00014735       42.75N            73.80W               5
+
+      Data Format: 6201FB  
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          EXTRACT AND QUALITY ASSESSMENT             
+
+          Extract Input -    OPEN: 14735-88.UA
+          Extract Output-    OPEN: EX01_UA.IQA
+          QA Output     -    OPEN: EX01_UA.OQA
+
+          The Extract Dates Are:    Starting:  1-MAR-1988
+                                      Ending: 10-MAR-1988
+
+          Upper Air Data Above the First Level Above 5000 Meters Not Extracted
+          Upper Air Automatic Data Checks Are: OFF
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        14735       42.75N             73.8W               0             83.8
+
+      Data Format: CD144   
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          EXTRACT AND QUALITY ASSESSMENT             
+
+          Extract Input -    OPEN: S1473588.144
+          Extract Output-    OPEN: EX01_SF.IQA
+          QA Output     -    OPEN: EX01_SF.OQA
+
+          The Extract Dates Are:    Starting:  1-MAR-1988
+                                      Ending: 10-MAR-1988
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:05
+
+                                      Stage 1                          Page   2
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+
+                        **** SUMMARY OF THE QA AUDIT ****
+
+
+    SOUNDINGS         |------VIOLATION SUMMARY------|   |-----TEST VALUES-----|
+               TOTAL     #     LOWER  UPPER      %      MISSING   LOWER   UPPER
+               # OBS  MISSING  BOUND  BOUND  ACCEPTED     FLAG    BOUND   BOUND
+             SURFACE
+       UATT      20        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      20        0      0      0    100.00     9990.0,    0.0,  500.0
+           0 -  500M
+       UATT      65        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      65        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      65        0      1      2     95.38    -9999.0,   -2.0,    5.0
+         500 - 1000M
+       UATT      46        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      46        3      0      0     93.48     9990.0,    0.0,  500.0
+       UALR      46        0      0      0    100.00    -9999.0,   -2.0,    5.0
+        1000 - 1500M
+       UATT      43        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      43        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      43        0      1      0     97.67    -9999.0,   -2.0,    5.0
+        1500 - 2000M
+       UATT      49        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      49        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      49        0      0      1     97.96    -9999.0,   -2.0,    5.0
+        2000 - 2500M
+       UATT      50        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      50        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      50        0      0      0    100.00    -9999.0,   -2.0,    5.0
+        2500 - 3000M
+       UATT      31        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      31        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      31        0      0      0    100.00    -9999.0,   -2.0,    5.0
+        3000 - 3500M
+       UATT      29        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      29        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      29        0      0      0    100.00    -9999.0,   -2.0,    5.0
+        3500 - 4000M
+       UATT      20        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      20        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      20        0      0      0    100.00    -9999.0,   -2.0,    5.0
+             > 4000M
+       UATT      76        0      0      0    100.00    -9990.0, -350.0,  350.0
+       UAWS      76        0      0      0    100.00     9990.0,    0.0,  500.0
+       UALR      76        0      0      0    100.00    -9999.0,   -2.0,    5.0
+
+ NOTE: Test values were also multiplied by the same factors applied to the data
+       (see Appendix B of the AERMET User's Guide)
+
+        In addition, for the   20 soundings, AERMET reports that there are:     
+                                                                                
+              0 CALM WIND CONDITIONS (WS=0, WD=0)                               
+              0 ZERO WIND SPEEDS WITH NONZERO WIND DIRECTIONS                   
+              0 DEW POINT GREATER THAN DRY BULB TEMPERATURE                     
+              1 SOUNDINGS THAT DO NOT EXTEND TO  5000 METERS                    
+                                                                                
+        The date, time and level of the occurrences for the first three         
+        can be found in the message file  EX01_S1.MSG                           
+
+
+ SURFACE DATA         |------VIOLATION SUMMARY------|   |-----TEST VALUES-----|
+               TOTAL     #     LOWER  UPPER      %      MISSING   LOWER   UPPER
+               # OBS  MISSING  BOUND  BOUND  ACCEPTED     FLAG    BOUND   BOUND
+       TMPD     240        0      0      0    100.00      999.0, -300.0,  400.0
+       WDIR     240        0      0      0    100.00      999.0,    0.0,   36.0
+       WSPD     240        0      0      0    100.00      999.0,    0.0,  500.0
+
+ NOTE: Test values were also multiplied by the same factors applied to the data
+       (see Appendix B of the AERMET User's Guide)
+
+
+        In addition, for the   240 hourly obs, AERMET reports that there are:   
+                                                                                
+             20 CALM WIND CONDITIONS (WS=0, WD=0)                               
+              0 ZERO WIND SPEEDS WITH NONZERO WIND DIRECTIONS                   
+              0 DEW-POINT GREATER THAN DRY BULB TEMPERATURES                    
+                                                                                
+        The date & time of these occurrences can be found in                    
+        the message file  EX01_S1.MSG                                           
+
+     THIS CONCLUDES THE AUDIT TRAIL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:05
+
+                                      Stage 1                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+                     EXTRACT AND/OR QA THE METEOROLOGICAL DATA
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       1       0       0       0       0       0       2
+
+  UPPERAIR  
+    E      0       0       0       0       0       0       0       0       0
+    W      2       0       0       0       0       0       0       0       2
+    I      0       0       0       4       0       0       0       0       4
+    Q      0       0       0       8       0       0       0       0       8
+
+  SURFACE   
+    E      0       0       0       0       0       0       0       0       0
+    W      1       0       0       0       0       0       0       0       1
+    I      0       0       0       0       5       0       0       0       5
+    Q      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           3       1       1      12       5       0       0       0      22
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+       9 UPPERAIR   W04 DATCRD  : Too many fields ( 4) on 'DATA' keyword! Block factor and type not used: BLKFAC=1, FTYPE=ASCII.
+      15 UPPERAIR   W04 LOCCRD  : Station elevation not allowed for UPPERAIR   pathway: input ignored!
+      21 SURFACE    W06 DATCRD  : Invalid/obsolete entry on 'DATA' keyword:        1; only valid option is 'ASOS' for ISHD data.
+
+    ASOS Commission Date for Surface Station    14735 (YYYYMMDD): 19950801
+

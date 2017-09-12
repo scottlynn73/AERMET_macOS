@@ -1,0 +1,112 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:32
+
+                                      Stage 2                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: EX01_S2.MSG
+     Summary (this file): EX01_S2.RPT
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+     00014735       42.75N            73.80W               5
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          MERGE ONLY                                 
+
+          QA Output     -    OPEN: EX01_UA.OQA
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        14735       42.75N             73.8W               0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          MERGE ONLY                                 
+
+          QA Output     -    OPEN: EX01_SF.OQA
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 5.  Merged Data
+          Merge Output  -    OPEN: EX01_MR.MET
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:32
+
+                                      Stage 2                          Page   2
+
+                         Merging the Meteorological Data
+
+
+          The Merged Dates Are:    Starting:  1-MAR-1988
+                                     Ending:  4-MAR-1988
+
+                   ***** Daily Output Statistics *****
+         1988 MO/DY:  3/ 1  3/ 2  3/ 3  3/ 4
+ NWS  Upper Air  Sdgs   2     4     4     4
+ NWS Sfc Observations  24    24    24    24
+ On-site Observations   0     0     0     0
+ Ave 1-min ASOS Winds   0     0     0     0
+
+
+ TOTAL OBSERVATIONS READ:
+    Upper Air Soundings :      9
+    NWS Sfc Observations:     98
+    On-site Observations:      0
+    1-min ASOS Wind Data:      0
+
+                   ***** MERGE PROCESS COMPLETED *****
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:32
+
+                                      Stage 2                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       5       0       0       0       0       0       6
+
+  SURFACE   
+    E      0       0       0       0       0       0       0       0       0
+    W      1       0       0       0       0       0       0       0       1
+    I      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           1       1       5       0       0       0       0       0       7
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+      12 SURFACE    W06 DATCRD  : Invalid/obsolete entry on 'DATA' keyword:        1; only valid option is 'ASOS' for ISHD data.

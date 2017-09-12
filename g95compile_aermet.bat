@@ -1,0 +1,204 @@
+g95 -c -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  mod_AsosCommDates.for
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AERMET.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AERSURF.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AERSURF2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  ASOSREC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AUDIT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AUTCHK.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  AVGCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  BANNER.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  BULKRI.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CALMS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CBLHT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CHRCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CHRCRD2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CHROND.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CLHT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CLMCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CLOUDS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  COMPDT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CUBIC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  CVG.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D028LV.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D144HD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D144LV.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D3280H.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D3280L.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D6201H.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  D6201L.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DATCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DATER.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DEF256.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DEFINE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DOCLDS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  DTCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  EQ_CCVR.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  ERRHDL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FDKEY.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FDPATH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FETCH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLIWK1.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLIWK2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLOPEN.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLOS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLSDG.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLSFC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLWRK1.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FLWRK2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FMTCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  FNDCOMDT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GEO.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GET620.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETASOS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETCCVR.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETFIL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETFLD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETFSL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETSFC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETTEMP.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GETWRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GMTLST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  GREG.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HDPROC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HEADER.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HEAT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HGTCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HR0024.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HTCALC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HTKEY.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HUMID.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  HUSWX.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  ICHRND.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  INCRAD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  INTEQA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  INTHF.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  ISHWX.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  JBCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  LATLON.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  LOCCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  LWRUPR.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MANDEL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MDCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MERGE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MIDNITE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MODEL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPFIN.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPHEAD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPMET.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPOUT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPPBL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPPROC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MPTEST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MRCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MRHDR.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  MRPATH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  NETRAD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  NR_ANG.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  NWSHGT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OAUDIT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSCHK.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSDTCD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSDUMP.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSFILL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSFILL2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSHRAV.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSNEXT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSPATH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSPRNT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSQACK.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSQAST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSRANGE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSREAD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSSMRY.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSSUMS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSSWAP.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSTEST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSTRA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OSWRTE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  OTHHDR.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  P2MSUB.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  PRESET.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  PTAREA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  PTGRAD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RDHUSW.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RDISHD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RDLREC.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RDSAMS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  READRL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  REALQA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RHOCAL.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  RNGCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SAMWX.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SAUDIT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SBLHT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SCNGEN.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SECCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SECCRD2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SETHUS.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SETSAM.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SETUP.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCCH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCCH2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCCRD2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCHK.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFCWXX.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFEXST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFEXT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFPATH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFQASM.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFQAST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFQATM.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SFTRA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SMTHZI.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  STONUM.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SUBST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SUMHF.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SUMRY1.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SUMRY2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  SUNDAT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  TDPEST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  TEST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  THRESH1MIN.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UACARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UACHK.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAEXST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAEXT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAMOVE.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAPATH.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAQASM.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAQAST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UATRA.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAUDIT.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UAWNDW.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UCALCO.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  UCALST.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  VALCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  VARCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  VRCARD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  WRTCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  YR2TOYR4.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  YR4TOYR2.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  XDTCRD.FOR
+g95 -c -ftrace=full -fbounds-check -Wuninitialized -Wprecision-loss -O2 -march=pentium4  XTNDUA.FOR
+          
+g95 -o aermet_g95.exe  mod_AsosCommDates.o AERMET.o AERSURF.o  AERSURF2.o  ASOSREC.o AUDIT.o  AUTCHK.o  AVGCRD.o  BANNER.o  BULKRI.o  CALMS.o  CBLHT.o  CHRCRD.o ^
+CHRCRD2.o  CHROND.o  CLHT.o  CLMCRD.o  CLOUDS.o  COMPDT.o  CUBIC.o  CVG.o  D028LV.o  D144HD.o  D144LV.o  D3280H.o ^
+D3280L.o  D6201H.o  D6201L.o  DATCRD.o  DATER.o  DEF256.o  DEFINE.o  DOCLDS.o  DTCRD.o  EQ_CCVR.o  ERRHDL.o  FDKEY.o ^
+FDPATH.o  FETCH.o  FLIWK1.o  FLIWK2.o  FLOPEN.o  FLOS.o  FLSDG.o  FLSFC.o  FLWRK1.o  FLWRK2.o  FNDCOMDT.o FMTCRD.o  ^
+GEO.o  GET620.o  GETASOS.o  GETCCVR.o  GETFIL.o  GETFLD.o  GETFSL.o  GETSFC.o  GETTEMP.o  GETWRD.o  GMTLST.o  GREG.o  HDPROC.o  HEADER.o  HEAT.o  ^
+HGTCRD.o  HR0024.o  HTCALC.o  HTKEY.o  HUMID.o  HUSWX.o  ICHRND.o  INCRAD.o  INTEQA.o  INTHF.o  ISHWX.o  JBCARD.o  ^
+LATLON.o  LOCCRD.o  LWRUPR.o  MANDEL.o  MDCARD.o  MERGE.o  MIDNITE.o  MODEL.o  MPCARD.o  MPFIN.o  MPHEAD.o  MPMET.o  ^
+MPOUT.o  MPPBL.o  MPPROC.o  MPTEST.o  MRCARD.o  MRHDR.o  MRPATH.o  NETRAD.o  NR_ANG.o  NWSHGT.o  OAUDIT.o  OSCARD.o  ^
+OSCHK.o  OSDTCD.o  OSDUMP.o  OSFILL.o  OSFILL2.o  OSHRAV.o  OSNEXT.o  OSPATH.o  OSPRNT.o  OSQACK.o  OSQAST.o  OSRANGE.o  OSREAD.o  OSSMRY.o  ^
+OSSUMS.o  OSSWAP.o OSTEST.o  OSTRA.o  OSWRTE.o  OTHHDR.o  P2MSUB.o  PRESET.o  PTAREA.o  PTGRAD.o  RDHUSW.o  RDISHD.o  RDLREC.o  ^
+RDSAMS.o  READRL.o  REALQA.o  RHOCAL.o  RNGCRD.o  SAMWX.o  SAUDIT.o  SBLHT.o  SCNGEN.o  SECCRD.o  SECCRD2.o  SETHUS.o ^
+SETSAM.o  SETUP.o  SFCARD.o  SFCCH.o  SFCCH2.o  SFCCRD.o  SFCCRD2.o  SFCHK.o  SFCWXX.o  SFEXST.o  SFEXT.o  SFPATH.o  ^
+SFQASM.o  SFQAST.o  SFQATM.o  SFTRA.o  SMTHZI.o  STONUM.o  SUBST.o  SUMHF.o  SUMRY1.o  SUMRY2.o  SUNDAT.o  TDPEST.o ^
+TEST.o  THRESH1MIN.o  UACARD.o  UACHK.o  UAEXST.o  UAEXT.o  UAMOVE.o  UAPATH.o  UAQASM.o  UAQAST.o  UATRA.o  UAUDIT.o  UAWNDW.o  ^
+UCALCO.o  UCALST.o  VALCRD.o  VARCRD.o  VRCARD.o  WRTCRD.o  YR2TOYR4.o  YR4TOYR2.o  XDTCRD.o  XTNDUA.o
+
+del *.o *.mod

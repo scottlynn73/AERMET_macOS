@@ -1,0 +1,177 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:50
+
+                                      Stage 3                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: EX01_S3.MSG
+     Summary (this file): EX01_S3.RPT
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+     00014735       42.75N            73.80W               5
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        14735       42.75N             73.8W               0             83.8
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:50
+
+                                      Stage 3                          Page   2
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+    1.  Input/Output Files
+
+        EX01_S3.RPT                                          OPENED SUCCESSFULLY
+        EX01_S3.MSG                                          OPENED SUCCESSFULLY
+        EX01_MR.MET                                          OPENED SUCCESSFULLY
+        EX01_MP.SFC                                          OPENED SUCCESSFULLY
+        EX01_MP.PFL                                          OPENED SUCCESSFULLY
+
+    2.  Dispersion Model for which Data Are Processed
+
+          AERMOD
+
+          The Processed Dates Are:    Starting:  1-MAR-1988
+                                        Ending:  4-MAR-1988
+
+          Based on the MERGE file header records.
+
+    3.  Processing Options
+
+           Process       Scheme         Description
+           -------       ------         -----------
+        WIND DIRECTION   RANDOM      NWS wind directions are RANDOMIZED                          
+        CLOUD COVER      CCVR_Sub    Missing CCVR substitutions ARE included                     
+        TEMPERATURE      TEMP_Sub    Missing TEMP substitutions ARE included                     
+        SBL PROCESSING   UCALST      The default (Holtslag) method is used                       
+        ASOS ADJUSTMENT  ASOS_ADJ    ASOS wind speeds, if present, ARE adjusted for truncation   
+        SDG SELECTION    00Z/12Z     Sounding selection based on 12Z sdg                         
+                                      Selection window:  -1     1
+        REFERENCE LEVEL  SUBNWS      NWS WIND & TEMP data ARE SUBSTITUTED for missing ONSITE data
+                                      Anemometer height(m):    6.10
+
+    4.  Locations of Meteorological Data 
+
+         Data           Site     Longitude   Latitude
+        Pathway          ID      (degrees)   (degrees)
+        -------         ----     ---------   ---------
+        UPPERAIR     00014735      73.80W      42.75N
+        SURFACE         14735       73.8W      42.75N
+
+    5.  Primary Site Surface Characteristics 
+
+          User Inputs Varied by: Annual
+
+                  Wind Sector               Bowen   Roughness
+          Month   Start   End    Albedo     Ratio   Length (m)
+          ----------------------------------------------------
+            1        0.  360.      0.15      2.00     0.1200
+            2        0.  360.      0.15      2.00     0.1200
+            3        0.  360.      0.15      2.00     0.1200
+            4        0.  360.      0.15      2.00     0.1200
+            5        0.  360.      0.15      2.00     0.1200
+            6        0.  360.      0.15      2.00     0.1200
+            7        0.  360.      0.15      2.00     0.1200
+            8        0.  360.      0.15      2.00     0.1200
+            9        0.  360.      0.15      2.00     0.1200
+           10        0.  360.      0.15      2.00     0.1200
+           11        0.  360.      0.15      2.00     0.1200
+           12        0.  360.      0.15      2.00     0.1200
+
+    6.  Input File(s) for   AERMOD
+
+          Surface Meteorology:  EX01_MP.SFC
+          Profile Data       :  EX01_MP.PFL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  16216
+
+                     Data Processed on 12-SEP-2017 at 01:07:50
+
+                                      Stage 3                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+               PROCESSING METEOROLOGICAL DATA FOR DISPERSION MODELING
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       0       0       0       0       0       0       1
+
+  UPPERAIR  
+    E      0       0       0       0       0       0       0       0       0
+    W      1       0       0       0       0       0       0       0       1
+    I      0       0       0       0       0       0       0       0       0
+
+  SURFACE   
+    E      0       0       0       0       0       0       0       0       0
+    W      1       0       0       0       0       0       0       0       1
+    I      0       0       0       0       0       0       0       0       0
+
+  METPREP   
+    E      0       0       0       0       0       0       0       0       0
+    W      2       0       0       0       0       0       0       0       2
+    I      0       0       0       0       1       0       0      17      18
+    T      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           4       1       0       0       1       0       0      17      23
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+       9 UPPERAIR   W04 LOCCRD  : Station elevation not allowed for UPPERAIR   pathway: input ignored!
+      14 SURFACE    W06 DATCRD  : Invalid/obsolete entry on 'DATA' keyword:        1; only valid option is 'ASOS' for ISHD data.
+       1 METPREP    W03 LOCCRD  : LOCATION keyword on METPREP pathway is OBSOLETE unless OSMIX and No UADATA;
+       2 METPREP    W03 LOCCRD  :  The LOCATION used for sunrise in CBL calcs is from ONSITE (if available) or SURFACE station.
+
+    ASOS Commission Date for Surface Station    14735 (YYYYMMDD): 19950801
+
+
+
+ The number of CALM winds  encountered is:      8
+ The number of VARIABLE WD encountered is:      0
+ The number of miss CCVR substitutions is:      0
+ The number of miss TEMP substitutions is:      0
