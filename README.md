@@ -8,7 +8,7 @@ To install AERMET on mac OSX just follow these steps:
 
 3) You should have the makefile in the repo, so just type "make" in the terminal
 
-4) The code shoudl compile and create an aermet executable (a copy of which is in this repo already!
+4) The code should compile and create an aermet executable (a copy of which is in this repo already!
 
 5) Run some test cases to see if its worked.
 
